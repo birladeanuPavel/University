@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="web-app:war">
+    <output-path>$PROJECT_DIR$/web-app/target</output-path>
+    <root id="archive" name="web-app.war">
+      <element id="artifact" artifact-name="web-app:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="university-dal" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.28" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.30" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

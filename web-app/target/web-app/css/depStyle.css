@@ -1,0 +1,43 @@
+	td, th{
+			border: 1px solid black;
+			overflow: hidden;	
+		}
+		table{
+			border: 1px solid black;
+			table-layout:fixed; 
+			font-family: consolas, monospace;
+			border-collapse: collapse;
+			margin:50px auto;
+			margin-top:8%;
+			width:570px;
+		}
+		th{
+			background-color:#cef;
+		}
+		tr{
+			background-color:#ddf;
+		}
+	
+		td{
+			padding:3pt;
+		}
+		caption{
+			text-align: left;
+			margin-left: 10px;
+			margin-bottom: 5px;
+		}
+		h1{
+			margin-top:5%;
+			margin-left:40%
+			
+		}
+		 body {
+			background-color: #F9FFD8;
+		}
+		form{
+			margin-left: 40%;
+			margin-right: 15%;
+			margin-top:2%;
+		}
+		
+		

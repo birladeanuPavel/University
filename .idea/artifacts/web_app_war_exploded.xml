@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web-app:war exploded">
+    <output-path>$PROJECT_DIR$/web-app/target/web-app</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="web-app/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web-app" />
+          <element id="module-output" name="university-service" />
+          <element id="module-output" name="university-dal" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Hibernate 4.2.2-4.2.2" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.28" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.30" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
